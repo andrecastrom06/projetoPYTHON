@@ -51,6 +51,7 @@ def verBiblioteca(arquivo_nome):
             "R$,",
             "Genero: " + arquivo_split[3],
         )
+    arquivo.close()
 
 
 def atualizarLivro(arquivo_nome, nome, opcao, valor):
