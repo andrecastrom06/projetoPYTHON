@@ -10,7 +10,7 @@ def main():
         print("3 - Agrupe livros em gêneros")
         print("4 - Gastos totais")
         print("5 - Buscar livros por gênero")
-        print("6 - Ver bibliotecar")
+        print("6 - Ver biblioteca")
         print("7 - Busque pelo livro mais caro")
         print("8 - Atualize algum livro da biblioteca")
         print("0 - Parar o programa")
