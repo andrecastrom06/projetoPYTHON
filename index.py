@@ -19,8 +19,6 @@ def main():
         except ValueError:
             print("Digite um numero inteiro correspondente às opções:")
             continue
-        except ValueError:
-            print
         if opção == 1:
             nome = input("Digite o nome do livro: ").capitalize()
             autor = input("Digite o nome do autor do livro: ").capitalize()
