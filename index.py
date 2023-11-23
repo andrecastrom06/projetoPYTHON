@@ -14,7 +14,13 @@ def main():
         print("7 - Busque pelo livro mais caro")
         print("8 - Atualize algum livro da biblioteca")
         print("0 - Parar o programa")
-        opção = int(input())
+        try:
+            opção = int(input())
+        except ValueError:
+            print("Digite um numero inteiro correspondente às opções:")
+            continue
+        except ValueError:
+            print
         if opção == 1:
             nome = input("Digite o nome do livro: ").capitalize()
             autor = input("Digite o nome do autor do livro: ").capitalize()
